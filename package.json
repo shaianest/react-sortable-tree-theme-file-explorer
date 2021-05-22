@@ -7,7 +7,7 @@
     "build:demo": "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail",
     "clean": "rimraf dist",
     "clean:demo": "rimraf build",
-    "start": "cross-env NODE_ENV=development TARGET=development webpack-dev-server --inline --hot",
+    "start": "cross-env NODE_ENV=development  TARGET=development webpack-dev-server --inline --hot",
     "lint": "eslint .",
     "prettier": "prettier --single-quote --trailing-comma es5 --write \"**/*.{js,jsx,css,scss}\"",
     "prepublishOnly": "npm run lint && npm run test && npm run build",

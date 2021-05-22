@@ -15,5 +15,5 @@ cc-test-reporter
 *.DS_Store
 
 # Build directories (Will be preserved by npm)
-dist
+# dist
 build
